@@ -32,3 +32,10 @@ Prettier
 `yarn lint --fix`
 
 
+## Questions
+
+- using react native screens/views in a native app
+- react native web
+- share react compoents between react web and react native
+- react-native version is "0.74.5" - beta? breaking changes?
+
