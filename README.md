@@ -32,6 +32,14 @@ Prettier
 `yarn lint --fix`
 
 
+## Navigation
+
+
+## Icons
+
+- https://icons.expo.fyi/Index
+
+
 ## Questions
 
 - using react native screens/views in a native app
