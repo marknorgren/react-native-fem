@@ -49,6 +49,7 @@ Prettier
 - react-native version is "0.74.5" - beta? breaking changes?
 - swipe to delete?
 - animations for delete?
+	- Yes! [LayoutAnimation](https://reactnative.dev/docs/layoutanimation)
 - reorder / edit / drag drop
 
 
