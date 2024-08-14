@@ -35,7 +35,6 @@ export async function registerForPushNotificationsAsync() {
       const { status } = await Notifications.requestPermissionsAsync();
       return status;
     } else {
-      openSettings();
       return existingStatus;
     }
   } else {
