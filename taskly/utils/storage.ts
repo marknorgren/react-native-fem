@@ -13,8 +13,8 @@ export async function getFromStorage(key: string) {
 export async function saveToStorage(key: string, data: object) {
   try {
     await AsyncStorage.setItem(key, JSON.stringify(data));
-    console.log(`Save data from storage. Key: ${key}, Data: ${data}`);
+    console.log(`Save data from storage. Key: ${key}, Data:`, data);
   } catch {
-    console.log(`Error saving data to storage. Key: ${key}, Data: ${data}`);
+    console.log(`Error saving data to storage. Key: ${key}, Data`, data);
   }
 }
