@@ -1,6 +1,4 @@
 
-
-
 # Intermediate React Native v2
 
 - [Course Site](https://kadikraman.github.io/intermediate-react-native-v2-course/)
@@ -11,57 +9,47 @@
 
 - [Course Site](https://kadikraman.github.io/react-native-v3-course/)
 
-
 ## Intro
 
-`yarn start`
-
-`yarn start --tunnel`
-
+```bash
+yarn start
+yarn start --tunnel
+```
 
 ## Frameworks
 
-[React Native Framework](https://github.com/react-native-community/discussions-and-proposals/blob/main/proposals/0759-react-native-frameworks.md)
-Expo
-
-https://reactnative.dev/blog/2024/06/25/use-a-framework-to-build-react-native-apps
-
-
+- [React Native Framework](https://github.com/react-native-community/discussions-and-proposals/blob/main/proposals/0759-react-native-frameworks.md)
+- [Expo](https://reactnative.dev/blog/2024/06/25/use-a-framework-to-build-react-native-apps)
 
 ## Linting
 
-ESLint
+- ESLint
+- Prettier
 
-Prettier
-
-`yarn lint --fix`
-
+```bash
+yarn lint --fix
+```
 
 ## Navigation
 
+<!-- Placeholder for future notes -->
 
 ## Icons
 
-- https://icons.expo.fyi/Index
-
+- [Expo Icons Directory](https://icons.expo.fyi/Index)
 
 ## Questions
 
-
-- using react native screens/views in a native app
-- react native web
-- share react components between react web and react native
-- react-native version is "0.74.5" - beta? 
-breaking changes?
-	- react native is 9 years old!
-	- kind of a joke when is 1.0 coming?
-- new architecture is now in beta?
-- swipe to delete?
-- animations for delete?
-	- Yes! [LayoutAnimation](https://reactnative.dev/docs/layoutanimation)
-- reorder / edit / drag drop
+- Using React Native screens/views in a native app
+- React Native Web
+- Sharing React components between React web and React Native
+- React Native version is "0.74.5" - is it a beta? Breaking changes?
+  - React Native is 9 years old! When is 1.0 coming?
+- Is the new architecture now in beta?
+- Swipe to delete?
+- Animations for delete?
+  - Yes! [LayoutAnimation](https://reactnative.dev/docs/layoutanimation)
+- Reorder / Edit / Drag-and-Drop
 - Expo Go Sandbox
-	- Limitations
-		- Firebase config
-
-
+  - Limitations:
+    - Firebase config
